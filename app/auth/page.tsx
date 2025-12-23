@@ -67,7 +67,7 @@ export default function AuthPage() {
           <div className="text-center mb-8">
             <motion.h1 
               className="text-3xl font-bold bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent"
-              animate={{ glow: [0, 1, 0] }}
+              animate={{ opacity: [0.7, 1, 0.7] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
               CYBER COMMENTS
